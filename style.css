@@ -1,0 +1,238 @@
+* {
+	padding: 0;
+    margin: 0;
+/*outline: 1px dotted blue;*/
+}
+body{
+    font-family: sans-serif;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+span{
+    color: #2A85D9;
+}
+a {
+    text-decoration: none;
+}
+
+header {
+
+    width:1000px;
+}
+header img{
+    width: 80px;
+}
+header div {
+
+    display: inline-block;
+}
+.top-header{
+    float: left;
+}
+header h1{
+    padding-top: 20px;
+    font-weight: normal;
+}
+
+header h2{
+    height: 35px;
+    width: 990px;
+    float: left;
+    padding-top: 12px;
+    background-color: #3776ab;
+    margin-top: -18px;
+    font-weight: normal;
+    color: white;
+    padding-left: 10px;
+    background: -webkit-linear-gradient(#316599, rgb(116, 152, 183), #316599); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#316599, rgb(116, 152, 183), #316599); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#316599, rgb(116, 152, 183), #316599); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#316599, rgb(116, 152, 183), #316599); /* Standard syntax (must be last) */
+}
+h2 {
+    padding-left: 15px;
+}
+h3{
+    font-weight: lighter;
+}
+#main-content {
+    display: flex;
+    height: auto;
+    display: inline-flex;
+    width: inherit;
+    background: linear-gradient(#E5E5E5 5%, #EDEDED 10%, #F7F7F7 20%,#FFFFFF 30%);
+}
+/*beginning side block css*//**/
+aside {
+    width: 190px;
+    margin-top: 18px;
+    margin-left: 5px;
+}
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+aside p{
+    margin-bottom: 15px;
+    font-weight: inherit;
+    font-size: 14px;
+
+}
+.main-button-2 {
+    background:    #E2781F;
+    border-radius: 7px;
+    box-shadow:    1px 1px gray;
+    padding:       1px 25px;
+    color:         #ffffff;
+    display:       inline-block;
+    font-size: medium;
+    text-align: center;
+    text-shadow:   0px 0px #66c6db;
+    margin-top: 5px;
+    width: 190px;
+    height: 30px;
+    font-size: small;
+}
+.main-button-1 {
+    background:    #4374A4;
+    border-radius: 7px;
+    box-shadow:    1px 1px gray;
+    padding:       1px 25px;
+    color:         #ffffff;
+    display:       inline-block;
+    font-size: medium;
+    text-align: center;
+    text-shadow:   0px 0px #66c6db;
+    margin-top: 5px;
+    width: 190px;
+    height: 30px;
+    font-size: small;
+}
+#ad-button {
+    background:    #81bcd0;
+    border-radius: 5px;
+    box-shadow:    2px 2px #000;
+    padding:       1px 25px;
+    color:         #ffffff;
+    display:       inline-block;
+    font-size: medium;
+    text-align: center;
+    text-shadow:   0px 0px #66c6db;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+#ad-img{
+    background-image: url("ad_background.png");
+    background-color: #cccccc;
+    height: 300px;
+    width: fit-content;
+
+}
+#ad-img h4{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: 300;
+    margin-left: 10px;
+    margin-right: 12px;
+    margin-top: 10px;
+}
+#ad-img img{
+    width: 80px;
+    height: auto;
+}
+#ninja-img {
+    display: block;
+    margin:auto;
+    margin-top: 50px;
+}
+
+/*beginning of main content*/
+section{
+    width: 740px;
+    height: auto;
+    padding-left: 60px;
+}
+
+#home-img{
+    width:18px;
+    height: auto;
+    margin-top: 8px;
+
+}
+#home{
+    display: inline-table;
+}
+#home span{
+    font-weight: lighter;
+}
+#phone-img{
+    width: 20px;
+    height: auto;
+}
+#client-img {
+    width: 300px;
+    height: auto;
+    margin: auto;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#content-head {
+    display: inline-flex;
+}
+#phone-img {
+    width: 35px;
+    height: 35px;
+    margin-top: 5px;
+    margin-left: 510px;
+}
+#contact-info{
+    padding-right: 20px;
+}
+#contact-info p{
+    font-size: xx-small;
+    font-weight: lighter;
+    float: right;  
+}
+#contact-info a {
+    font-size: 20px;
+}
+#contact-phone{
+    float: right;
+}
+ul, ol {
+    margin-left: 40px;
+}
+  
+ul, ol, p{
+    font-size: small;
+}
+ul, ol, li {
+   padding: 3px;
+}
+#content-footer{
+    border: 5px solid #2D90EB;
+    border-bottom: 0;
+    margin-top: 20px;
+    display: inline-flex;
+}
+#html-img {
+    height: 90px;
+    width: auto;
+    padding: 10px;
+}
+#footer-content{
+    padding: 10px;
+}
+
+
+
+
+
+
